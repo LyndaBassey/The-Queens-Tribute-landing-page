@@ -1,0 +1,495 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 5rem;
+}
+img {
+  height: 100px;
+  width: 200px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 24px;
+}
+button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  width: 159px;
+  height: 48px;
+  background: #aea16c;
+  border-radius: 9px;
+  border: none;
+}
+.nav_links {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.section1 {
+  padding: 5rem;
+}
+
+.nav_hero_wrapper {
+  height: 120vh;
+  background: url(./images/ashton-mullins-j1HU-Oll7KI-unsplash\ 1.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.hero_top {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #bebebe;
+  margin-bottom: 20px;
+}
+.hero_heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.hero_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #525252;
+  margin-bottom: 20px;
+}
+.hero_bottom {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #525252;
+}
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  background: #000000;
+  color: white;
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+.biography_text {
+  padding-top: 20px;
+  background: black;
+  color: white;
+  padding-left: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+.trio_image {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+.section2_header {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.section2_hero_text {
+  padding: 30px;
+}
+.section2_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #666666;
+}
+.hero_section3 {
+  display: flex;
+  justify-content: space-between;
+  background: #e5e5e5;
+  padding: 80px;
+}
+.section3_images {
+  display: block;
+  object-fit: contain;
+}
+.granny_image {
+  height: 300px;
+  width: 300px;
+}
+.classic_image2 {
+  height: 300px;
+  width: 250px;
+  margin-bottom: 40px;
+}
+.classic_image {
+  height: 400px;
+  width: 300px;
+  margin-top: 60px;
+}
+.classical_image {
+  height: 250px;
+  width: 250px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.life_stories {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #636363;
+}
+.text1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  color: #868686;
+  width: 20ch;
+}
+.text2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #868686;
+  width: 20ch;
+}
+.text3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  color: #868686;
+  width: 20ch;
+}
+.text4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  color: #868686;
+  width: 23ch;
+}
+.sect3a {
+  width: 50%;
+  display: flex;
+  gap: 140px;
+}
+.sect3b {
+  width: 50%;
+  display: flex;
+  gap: 140px;
+}
+footer {
+  background: #000000;
+  color: white;
+  padding: 60px;
+}
+footer p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.input_button {
+  display: flex;
+  justify-content: center;
+}
+.footer_button {
+  width: 323px;
+  height: 96px;
+  background: #aea16c;
+  border-radius: 0px 9px 9px 0px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 24px;
+  color: #000000;
+}
+input {
+  width: 733px;
+  height: 96px;
+  background: rgba(222, 222, 222, 0.01);
+  border: 0.6px solid #d9d9d9;
+  border-radius: 9px 0px 0px 9px;
+}
+::placeholder {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 24px;
+  padding-left: 146px;
+}
+button {
+  cursor: pointer;
+}
+button :hover {
+  opacity: 0.8px;
+}
+.footer_date {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #2d2d2d;
+  text-align: center;
+  padding: 30px;
+  background: #e5e5e5;
+}
+@media (max-width: 390px) {
+  .nav_hero_wrapper {
+    background: none;
+    background-color: #aea16c;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+  }
+  img {
+    height: 80px;
+    width: 130px;
+  }
+  .nav_links {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 24px;
+  }
+  button {
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    white-space: nowrap;
+    width: 60px;
+    height: 30px;
+    background: #aea16c;
+    border-radius: 10px;
+    border: 2px solid white;
+
+  }
+  .hero_top {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .hero_heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    white-space: nowrap;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  .hero_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    white-space: nowrap;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .hero_bottom {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+  }
+  .section1 {
+    padding: 2rem;
+  }
+  .section2 {
+    display: block;
+    justify-content: space-between;
+    background: #000000;
+    color: white;
+  }
+  .trio_image {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+  .section2_header {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .section2_hero_text {
+    padding: 30px;
+  }
+  .section2_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #666666;
+  }
+  .biography_text {
+    background: black;
+    color: white;
+    padding-left: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  .hero_section3 {
+    display: block;
+    padding: 70px;
+  }
+  .sect3a {
+    width: 50%;
+    display: block;
+    gap: 140px;
+  }
+  .sect3b {
+    width: 50%;
+    display: block;
+    gap: 140px;
+  }
+  .section3_images {
+    display: block;
+    object-fit: cover;
+  }
+  .granny_image {
+    height: 200px;
+    width: 200px;
+  }
+  .classic_image {
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+  }
+  .classical_image {
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .classic_image2 {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 40px;
+  }
+  .life_stories {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #636363;
+  white-space: nowrap;
+}
+  .text1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #868686;
+  }
+  .text2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #868686;
+  }
+  .text3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #868686;
+  }
+  .text4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #868686;
+  }
+  footer {
+  background: #000000;
+  color: white;
+  padding: 60px;
+  width:100%;
+}
+footer p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.input_button {
+  display: flex;
+  justify-content: center;
+}
+.footer_button {
+  width: 200px;
+  height: 31px;
+  background: #aea16c;
+  border-radius: 0px 9px 9px 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  color: #000000;
+}
+input {
+  width: 100px;
+  height: 30px;
+  background: rgba(222, 222, 222, 0.01);
+  border: 0.6px solid #d9d9d9;
+  border-radius: 9px 0px 0px 9px;
+}
+::placeholder {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  padding-left: 146px;
+}
+button {
+  cursor: pointer;
+}
+button :hover {
+  opacity: 0.8px;
+}
+.footer_date {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #2d2d2d;
+  text-align: center;
+  padding: 30px;
+  background: #e5e5e5;
+}
+}
